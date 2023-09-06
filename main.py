@@ -7,6 +7,7 @@ from scoreboard import Scoreboard
 score = Scoreboard()
 screen = Screen()
 screen.setup(width=600, height=600)
+screen.bgpic("turtle-race.gif")
 screen.tracer(0)
 screen.listen()
 player = Player()
